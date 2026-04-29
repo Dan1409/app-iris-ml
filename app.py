@@ -44,8 +44,8 @@ import os
 st.write("Archivos en la raíz:")
 st.write(os.listdir("."))
 
-st.write("Archivos en components:")
-st.write(os.listdir("components"))
+st.write("Archivos en componets:")
+st.write(os.listdir("componets"))
 
 # Función para cargar los modelos
 @st.cache_resource
