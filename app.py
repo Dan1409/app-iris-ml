@@ -39,7 +39,13 @@ try:
 except Exception as e:
     st.write(str(e))
 
+import os
 
+st.write("Archivos en la raíz:")
+st.write(os.listdir("."))
+
+st.write("Archivos en components:")
+st.write(os.listdir("components"))
 
 # Función para cargar los modelos
 @st.cache_resource
